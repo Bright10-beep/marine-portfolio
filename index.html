@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional Portfolio of Marine Geologist ANTONIO">
+  <title>ANTONIO | Marine Geologist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ANTONIO</h1>
+      <p>Marine Geologist | Ocean Explorer | Environmental Researcher</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Marine Geologist focused on exploring and understanding the Earth's underwater landscape. With hands-on experience in seafloor mapping, sediment analysis, and tectonic plate studies, I use modern tools to reveal the hidden dynamics of the ocean floor.
+
+My goal is to contribute to sustainable marine exploration and deepen our knowledge of the world's last great frontier — the deep sea</p>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <h3>Seabed Mapping in the Gulf of Guinea</h3>
+        <p>🧭 Technical Explanation:
+Seabed Mapping in the Gulf of Guinea involves the systematic survey and analysis of the ocean floor using advanced geophysical tools such as multibeam echosounders, side-scan sonar, and sub-bottom profilers. This process generates high-resolution bathymetric data that reveals the morphology, sediment composition, and structural features of the seafloor.
+
+Located along the western coast of Africa, the Gulf of Guinea is a region of significant geological and economic interest. Seabed mapping in this area supports:
+
+Resource exploration (hydrocarbons, marine minerals)
+
+Tectonic and sedimentological studies
+
+Habitat mapping for marine biodiversity
+
+Pipeline and cable route planning
+
+Navigation safety and coastal development
+
+Through this work, marine geologists gain deeper insight into the tectonic framework and depositional history of the region, aiding both academic research and industrial applications.</div>
+      <div class="project">
+        <h3>Coastal Erosion Analysis</h3>
+        <p>Coastal Erosion Analysis involves the assessment and monitoring of shoreline retreat and sediment displacement caused by hydrodynamic forces such as wave action, tidal currents, storm surges, and sea-level rise. The process typically includes the use of remote sensing, historical shoreline data, GIS modeling, and field-based measurements to quantify erosion rates and identify vulnerable zones.
+
+This analysis plays a critical role in:
+
+Coastal zone management and planning
+
+Designing protective structures (e.g., sea walls, groynes)
+
+Understanding sediment transport dynamics
+
+Assessing the impact of climate change on coastal systems
+
+By understanding erosion patterns, marine geologists and coastal engineers can develop strategies to mitigate loss of land and infrastructure in coastal regions.</div>
+    </section>
+
+  <section id="contact" class="container">
+  <h2>Contact Me</h2>
+  <p>If you'd like to work together or share your thoughts, please reach out below.</p>
+  <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+    <label for="name">Your Name:</label><br />
+    <input type="text" id="name" name="name" required /><br />
+
+    <label for="email">Your Email:</label><br />
+    <input type="email" id="email" name="_replyto" required /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="feedback" class="container">
+  <h2>Share Your Opinion</h2>
+  <p>Write your feedback or comment for ANTONIIO:</p>
+  <form id="feedbackForm">
+    <label for="username">Name:</label><br />
+    <input type="text" id="username" required /><br />
+
+    <label for="opinion">Your Opinion:</label><br />
+    <textarea id="opinion" rows="4" required></textarea><br />
+
+    <button type="button" onclick="submitOpinion()">Post Feedback</button>
+  </form>
+
+  <div id="opinionsList">
+    <h3>What others are saying:</h3>
+    <ul id="feedbackDisplay"></ul>
+  </div>
+</section>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ANTONIO | Marine Geologist</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
